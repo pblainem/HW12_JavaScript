@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+
+	<html lang="en-us">
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      
+        
+        <title>Alien Webpage</title>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+        <h1 class = "center">
+            UFO Sitings Page
+        </h1>
+        <h2 class = "center"> data from 1/1/2010 - 5/8/2014</h2>
+        <div class = "dateInput center">
+            <label for="text">start date (m/d/y):  </label>
+            <input type="text" id="startDate" name="text-input">
+        </div>
+        <div class = "center">
+            <label for="text">end date (m/d/y):  </label>
+            <input type="text" id="endDate" name="text-input">
+        </div>
+        <h2 class="center"> walk with us...</h2>
+        <button id="click-me" class = "center">...know the truth</button>
+        <div id="loading">
+            <h3 class="center"></h3>
+            </div>
+        <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <!-- Student Grades -->
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>Date/Time</th>
+                          <th>City</th>
+                          <th>State</th>
+                          <th>Country</th>
+                          <th>Shape</th>
+                        </tr>
+                      </thead>
+                      <tbody id="myTbody">
+                        <!-- <tr>
+                          <td>1/1/2010</td>
+                          <td>BlahCity</td>
+                          <td>BlahState</td>
+                          <td>BlahCountry</td>
+                          <td>BlahShape</td>
+                        </tr> -->
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            
+
+
+
+    </body>
+    <script src="static/js/data.js"></script>
+    <script src="static/js/app.js"></script>
+</html>	

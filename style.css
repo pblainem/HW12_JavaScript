@@ -1,0 +1,75 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: skyblue;
+  /* background: #333; */
+  background-image: url("https://images.unsplash.com/photo-1503745328377-1f4355a2284b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fd259a5f9abffb6e5f588601ced0af81&auto=format&fit=crop&w=1950&q=80");
+
+}
+/* https://images.unsplash.com/photo-1503745328377-1f4355a2284b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fd259a5f9abffb6e5f588601ced0af81&auto=format&fit=crop&w=1950&q=80 */
+.dateInput input{
+  width: 200px;
+}
+
+label {
+  width: 300px;
+  text-align: right;
+}
+
+#loading{
+  color: yellowgreen;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+table td{
+  background: #333;
+  opacity: 1;
+
+}
+
+button {
+  background: yellowgreen;
+  color:#333;
+
+}
+
+tbody{
+  opacity: 0.8;
+}
+
+h1 {
+  color: skyblue;
+}
+
+.purple {
+  color: purple;
+}
+
+#red {
+  color: red;
+}
+
+#big-font {
+  font-size: 40px;
+}
+
+#bold-font {
+  font-weight: bold;
+}
+
+.back-black {
+  background-color: #000;
+}
+
+.small-font {
+  font-size: 10px;
+}
